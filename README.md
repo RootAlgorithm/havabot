@@ -48,6 +48,13 @@ networks:
         driver: bridge
 ```
 
+### Permissions
+
+HávaBot requires the following permissions to function:
+- Read Messages/View Channels
+- Send Messages
+- Read Message History
+
 ## Author
 
 Kai HTML (Talimere) 2022 \
