@@ -75,7 +75,7 @@ class DiscordController {
             return;
         }
         //Added my own discord id so I can help with debugging.
-        if((message.author.id !== message.member.guild.ownerId) || (message.author.id !== '222814295317020673')) return;
+        if((message.author.id !== message.member.guild.ownerId) && (message.author.id !== '222814295317020673')) return;
         const args: string[] = usedAlias ? message.content.slice(this.commandAlias.length).trim().split(/ +/) : message.content.slice(this.commandIdentifier.length).trim().split(/ +/);
         switch (args[0]) {
             case "activate":
