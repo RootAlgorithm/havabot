@@ -1,0 +1,23 @@
+{
+  "name": "havabot",
+  "version": "0.1.0",
+  "description": "Hávamál bot for Discord",
+  "main": "./src/Server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/server/Server.js",
+    "dockerprodbuild": "tsc"
+  },
+  "keywords": [],
+  "author": "Talimere",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node-schedule": "^1.3.2",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "mongoose": "^6.2.2",
+    "node-schedule": "^2.1.0"
+  }
+}
